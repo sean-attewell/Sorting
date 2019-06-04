@@ -33,7 +33,14 @@ def bubble_sort(arr):
 
     return arr
 
+# Option 2
+# for i in range(0, len(arr) - 1):
+#         for j in range(0, len(arr) - 1):
+#             if arr[j] > arr[j + 1]:
+#                 # swap
+#                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
+#     return arr
 # STRETCH: implement the Count Sort function below
 
 
